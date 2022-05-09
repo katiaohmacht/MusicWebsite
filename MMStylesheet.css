@@ -39,23 +39,31 @@ li a:hover {
    padding: 20px;
    margin-bottom:20px;
 }
-
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
 .columnabout {
-     float: left;
-     width: 50%;
-     margin-bottom: 16px;
-     padding: 0 8px;
-   }
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.columnaboutus {
+  float: center;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
 form {
-      width: 330px;
-      height: 60px;
-      border-radius: 5px;
-      display:flex;
-      flex-direction:row;
-      align-items:center;
-        }
-.row:after {
-      content: "";
-      display: table;
-      clear: both;
-        }
+       width: 330px;
+       height: 60px;
+       border-radius: 5px;
+       display:flex;
+       flex-direction:row;
+       align-items:center;
+     }
