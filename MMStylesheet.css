@@ -34,3 +34,14 @@ li a:hover {
   display:block;
   clear:both;
 }
+.card {
+   background-color: #abb7ff;
+   padding: 20px;
+   margin-bottom:20px;
+
+.columnabout {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
