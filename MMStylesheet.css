@@ -1,0 +1,36 @@
+#myNavbar{
+  z-index: 99;
+  position: sticky;
+  width:100%;
+  top: 0;
+  left: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8790c7;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #abb7ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #abb7ff;
+  color: #8790c7;
+}
+.row:after{
+  content:'';
+  display:block;
+  clear:both;
+}
