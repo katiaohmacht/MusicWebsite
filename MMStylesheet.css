@@ -46,11 +46,16 @@ li a:hover {
      margin-bottom: 16px;
      padding: 0 8px;
    }
-   form {
-          width: 330px;
-          height: 60px;
-          border-radius: 5px;
-          display:flex;
-          flex-direction:row;
-          align-items:center;
+form {
+      width: 330px;
+      height: 60px;
+      border-radius: 5px;
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+        }
+.row:after {
+      content: "";
+      display: table;
+      clear: both;
         }
