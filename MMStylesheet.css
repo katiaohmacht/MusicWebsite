@@ -34,10 +34,105 @@ li a:hover {
   display:block;
   clear:both;
 }
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #ffffff;
+}
+.header {
+  padding-top: 10px;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.headline {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
 .card {
-   background-color: #abb7ff;
+   background-color: #E4F2F2;
    padding: 20px;
    margin-bottom:20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* ----------------------------- */
+.collapsible:after {
+  content: '+';
+  color: #E4F2F2;
+  font-size: 25px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.activeq:after {
+  content: "-";
+  color: #E4F2F2;
+}
+
+.collapsible {
+  background-color: #317087;
+  color: #E4F2F2;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active{
+  background-color: #4393b0;
+  color: #E4F2F2;
+}
+.collapsible:hover {
+  background-color: #4393b0;
+  color: #E4F2F2;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+/* ------------ */
+#post1 {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+#post2 {
+    float: right;
+    width: 50%;
+    padding: 0;
+    margin: 0;
 }
 .about-section {
   padding: 50px;
