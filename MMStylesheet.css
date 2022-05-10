@@ -42,6 +42,35 @@ body {
   padding: 20px;
   background: #ffffff;
 }
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.topnav a {
+float: left;
+color: black;
+background-color: #abb7ff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+margin: 15px;
+margin-right: 0px;
+margin-left: 20px;
+}
+.topnav a:hover {
+  background-color: #8790c7;
+  color: #030303;
+}
+.topnav a.active {
+  background-color: #abb7ff;
+  color: black;
+}
+.topnav-right {
+  float: right;
+}
+
 .header {
   padding-top: 10px;
   padding: 10px;
