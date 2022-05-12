@@ -35,9 +35,7 @@ li a:hover {
   clear:both;
 }
 /* -------------------- */
-* {
-  box-sizing: border-box;
-}
+
 body {
   font-family: Arial;
   padding: 20px;
