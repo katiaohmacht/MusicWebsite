@@ -1,17 +1,33 @@
+<!DOCTYPE html>
 <link rel="icon" href="images/musicicon2.png">
 <title>Music Measures</title>
 
 <!DOCTYPE html>
 <html>
 <body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="MMStylesheet.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <img src="images/mmtest3.png" alt="a group photo" style="width:50%">
+      <div class="topnav-right">
+        <a href="donate.html">Donate</a>
+        <a href="login.html">Teacher Log In</a>
+      </div>
+    </div>
 
-<!-- <h2>The input Element</h2>
+    <div id="myNavbar">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="bios.html">Meet the Team</a></li>
+        <li><a href="ourprogram.html">Gallery</a></li>
+        <li><a href="connect.html">Connect</a></li>
+          <!-- we could add contact us and social media here -->
+      </ul>
+    </div>
 
-<!-- <form id="pass" action="/action_page.php"> -->
-<!-- <form id="pass">
-  Password: <input type="text" name="passx"><br>
-  <input type="button" onclick="passFunction()" value="Submit">
-</form> -->
 <SCRIPT>
 function passWord() {
 var testV = 1;
@@ -19,24 +35,26 @@ var pass1 = prompt('Please Enter Your Password',' ');
 while (testV < 3) {
 if (!pass1)
 history.go(-1);
-if (pass1.toLowerCase() == "letmein") {
+if (pass1.toLowerCase() == "password") {
 window.open('https://musicmeasures.ddns.net/instructoraccess.html');
 break;
 }
 testV+=1;
 var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+prompt('Password Incorrect, Please Try Again.','Password');
 }
 if (pass1.toLowerCase()!="password" & testV ==3)
+window.open('https://musicmeasures.ddns.net/index.html');
 history.go(-1);
 return " ";
 }
 </SCRIPT>
+<div id="passwordButton">
 <CENTER>
 <FORM>
 <input type="button" value="Enter Protected Area" onClick="passWord()">
 </FORM>
 </CENTER>
-
+</div>
 </body>
 </html>
