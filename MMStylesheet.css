@@ -202,3 +202,15 @@ form {
   display: inline-block;
   font-size: 16px;
 }
+
+.fcc-btn {
+  background-color: #abb7ff;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.fcc-btn:hover {
+  background-color: #8790c7;
+  color: #030303;
+}
