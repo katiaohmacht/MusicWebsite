@@ -152,18 +152,6 @@ body {
   background-color: #f1f1f1;
 }
 /* ------------ */
-#post1 {
-    float: left;
-    width: 50%;
-    padding: 0;
-    margin: 0;
-}
-#post2 {
-    float: right;
-    width: 50%;
-    padding: 0;
-    margin: 0;
-}
 .about-section {
   padding: 50px;
   text-align: center;
@@ -193,6 +181,9 @@ form {
        align-items:center;
      }
 
+.ImageHolder{
+ text-align:center;
+ }
 /* --------- */
 
 .button {
