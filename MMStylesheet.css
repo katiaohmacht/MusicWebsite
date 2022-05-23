@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 #myNavbar{
+  font: normal 18px Open Sans, serif;
   z-index: 99;
   position: sticky;
   width:100%;
@@ -49,6 +51,7 @@ body {
 }
 
 .topnav a {
+  font: normal 18px Open Sans, serif;
   float: left;
   color: black;
   background-color: #abb7ff;
@@ -100,6 +103,7 @@ body {
   padding: 20px;
 }
 .card {
+  font: normal 18px Open Sans, serif;
    background-color: #abb7ff;
    padding: 20px;
    margin-bottom:20px;
