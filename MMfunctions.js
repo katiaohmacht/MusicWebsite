@@ -4,7 +4,7 @@ function passWord() {
     while (testV < 3) {
     if (!pass1)
     history.go(-1);
-    if (pass1.toLowerCase() == "password") {
+    if (pass1.toLowerCase() == "piano") {
     window.open('https://musicmeasures.ddns.net/instructoraccess.html');
     break;
     }
@@ -12,7 +12,7 @@ function passWord() {
     var pass1 =
     prompt('Password Incorrect, Please Try Again.','Password');
     }
-    if (pass1.toLowerCase()!="password" & testV ==3)
+    if (pass1.toLowerCase()!="piano" & testV ==3)
     window.open('https://musicmeasures.ddns.net/index.html');
     history.go(-1);
     return " ";
