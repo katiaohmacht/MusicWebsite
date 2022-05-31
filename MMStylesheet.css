@@ -197,6 +197,7 @@ form {
 /* --------- */
 
 .button {
+  font: normal 18px Open Sans, serif;
   background-color: #abb7ff;
   border: none;
   color: black;
