@@ -5,7 +5,8 @@ function passWord() {
     if (!pass1)
     history.go(-1);
     if (pass1.toLowerCase() == "piano") {
-    window.open('https://musicmeasures.ddns.net/instructoraccess.html');
+    //window.open("https://musicmeasures.ddns.net/instructoraccess.html", "_self");
+    window.location.href = "https://musicmeasures.ddns.net/instructoraccess.html";
     break;
     }
     testV+=1;
@@ -13,7 +14,7 @@ function passWord() {
     prompt('Password Incorrect, Please Try Again.','Password');
     }
     if (pass1.toLowerCase()!="piano" & testV ==3)
-    window.open('https://musicmeasures.ddns.net/index.html');
+    window.open("https://musicmeasures.ddns.net/index.html", "_self");
     history.go(-1);
     return " ";
     }
