@@ -219,3 +219,14 @@ form {
   background-color: #8790c7;
   color: #030303;
 }
+
+#panel1{
+  font: normal 18px Open Sans, serif;
+  width:100%;
+  top: 0;
+  left: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
