@@ -16,4 +16,4 @@ function passWord() {
     window.open("https://musicmeasures.ddns.net/index.html", "_self");
     history.go(-1);
     return " ";
-    }
+}
