@@ -182,21 +182,21 @@ body {
   padding: 0 8px;
 }
 
-form {
+/* form {
        width: 330px;
        height: 60px;
        border-radius: 5px;
        display:flex;
        flex-direction:row;
        align-items:center;
-     }
+     } */
 
 .ImageHolder{
  text-align:center;
  }
 /* --------- */
 
-.button {
+/*.button { //THIS IS FOR THE OTHER LOG IN
   font: normal 18px Open Sans, serif;
   background-color: #abb7ff;
   border: none;
@@ -206,7 +206,7 @@ form {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
+} */
 
 .fcc-btn {
   background-color: #abb7ff;
@@ -257,3 +257,63 @@ form {
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
+.columnlogin{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  font: normal 18px Open Sans, serif;
+  text-align: center;
+}
+
+/* -------------- */
+
+    form {border: 3px solid #f1f1f1;}
+    
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    
+    button {
+      background-color: #abb7ff;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+    }
+    
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+    
+    img.avatar {
+      width: 40%;
+      border-radius: 50%;
+    }
+    
+    .container {
+      padding: 16px;
+    }
+    
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
