@@ -12,10 +12,10 @@ if (isset($_POST['uname']) && isset($_POST['psw'])) {
     $uname = validate($_POST['uname']);
     $psw = validate($_POST['psw']);
     if (empty($uname)) {
-        header("Location: index.html?error=User Name is required");
+        header("Location: home.html?error=User Name is required");
         exit();
     }else if(empty($psw)){
-        header("Location: index.html?error=Password is required");
+        header("Location: home.html?error=Password is required");
         exit();
     }else{
         $sql = "SELECT * FROM entries WHERE username='$uname' AND password='$psw'";
@@ -30,7 +30,7 @@ if (isset($_POST['uname']) && isset($_POST['psw'])) {
                 header("Location: instructoraccess.html");
                 exit();
             }else{
-                header("Location: index.html?error=Incorect User name or password");
+                header("Location: home.html?error=Incorect User name or password");
                 exit();
             }
         }else{
@@ -39,6 +39,6 @@ if (isset($_POST['uname']) && isset($_POST['psw'])) {
         }
     }
 }else{
-    header("Location: index.html");
+    header("Location: home.html");
     exit();
 }
