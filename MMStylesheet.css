@@ -255,6 +255,7 @@ body {
       display: inline-block;
       border: 1px solid #ccc;
       box-sizing: border-box;
+      font: normal 18px Open Sans, serif;
     }
     
     button {
@@ -265,6 +266,7 @@ body {
       border: none;
       cursor: pointer;
       width: 100%;
+      font: normal 18px Open Sans, serif;
     }
     
     button:hover {
@@ -289,6 +291,7 @@ body {
     
     .container {
       padding: 16px;
+      font: normal 18px Open Sans, serif;
     }
     
     span.psw {
