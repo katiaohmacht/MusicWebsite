@@ -182,31 +182,9 @@ body {
   padding: 0 8px;
 }
 
-/* form {
-       width: 330px;
-       height: 60px;
-       border-radius: 5px;
-       display:flex;
-       flex-direction:row;
-       align-items:center;
-     } */
-
 .ImageHolder{
  text-align:center;
  }
-/* --------- */
-
-/*.button { //THIS IS FOR THE OTHER LOG IN
-  font: normal 18px Open Sans, serif;
-  background-color: #abb7ff;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-} */
 
 .fcc-btn {
   background-color: #abb7ff;
@@ -317,3 +295,8 @@ body {
       float: right;
       padding-top: 16px;
     }
+
+/*arrow fix*/
+span { 
+  content: "\2190";
+}
