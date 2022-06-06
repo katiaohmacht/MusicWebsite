@@ -1,6 +1,6 @@
 <?php 
-
 session_start(); 
+
 include "db_conn.php";
 if (isset($_POST['uname']) && isset($_POST['psw'])) {
     function validate($data){
@@ -23,41 +23,22 @@ if (isset($_POST['uname']) && isset($_POST['psw'])) {
         if (mysqli_num_rows($result) === 1) {
             $row = mysqli_fetch_assoc($result);
             if ($row['username'] === $uname && $row['password'] === $psw) {
-
                 echo "Logged in!";
-
                 $_SESSION['username'] = $row['username'];
-
                 $_SESSION['name'] = $row['name'];
-
                 $_SESSION['id'] = $row['id'];
-
                 header("Location: instructoraccess.html");
-
                 exit();
-
             }else{
-
                 header("Location: index.html?error=Incorect User name or password");
-
                 exit();
-
             }
-
         }else{
-
             header("Location: login.html?error=Incorect User name or password");
-
             exit();
-
         }
-
     }
-
 }else{
-
     header("Location: index.html");
-
     exit();
-
 }
